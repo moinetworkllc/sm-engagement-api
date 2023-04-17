@@ -1,0 +1,19 @@
+{
+  "name": "sm-engagement-api",
+  "version": "0.0.1",
+  "description": "API to provide engagement level information of MOI community members",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moinetworkllc/sm-engagement-api.git"
+  },
+  "author": "",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/moinetworkllc/sm-engagement-api/issues"
+  },
+  "homepage": "https://github.com/moinetworkllc/sm-engagement-api#readme"
+}
