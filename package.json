@@ -4,16 +4,25 @@
   "description": "API to provide engagement level information of MOI community members",
   "main": "index.js",
   "scripts": {
+    "dev": "nodemon src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/moinetworkllc/sm-engagement-api.git"
+    "url": "git+httpsrs://github.com/moinetworkllc/sm-engagement-api.git"
   },
   "author": "",
   "license": "UNLICENSED",
   "bugs": {
     "url": "https://github.com/moinetworkllc/sm-engagement-api/issues"
   },
-  "homepage": "https://github.com/moinetworkllc/sm-engagement-api#readme"
+  "homepage": "https://github.com/moinetworkllc/sm-engagement-api#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2",
+    "uuid": "^9.0.0"
+  }
 }
