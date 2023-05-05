@@ -1,9 +1,11 @@
 const DB = require("./twitter_db.json");
 
-const getLevel = () => {
-    return Math.floor(
-        Math.random() * (10 - 1) + 1
-    );
+const getLevel = (username) => {
+    const user = DB.levels.find((user) => user.username === username);
+    if (!user) {
+        return 0;
+    }
+    return user.level;
 };
 
 module.exports = {
