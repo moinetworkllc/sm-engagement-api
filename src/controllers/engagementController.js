@@ -1,7 +1,7 @@
 const engagementService = require("../services/engagementService");
 
 const getTwitterEngagementLevel = (req, res) => {
-    const { params: { id } } = req;
+    const {params: {id}} = req;
     if (!id) {
         res.status(400).send({
             status: "NOT OK",
@@ -14,7 +14,7 @@ const getTwitterEngagementLevel = (req, res) => {
 };
 
 const getTelegramEngagementLevel = (req, res) => {
-    const { params: { id } } = req;
+    const {params: {id}} = req;
     if (!id) {
         res.status(400).send({
             status: "NOT OK",
@@ -27,7 +27,7 @@ const getTelegramEngagementLevel = (req, res) => {
 };
 
 const getDiscordEngagementLevel = (req, res) => {
-    const { params: { id } } = req;
+    const {params: {id}} = req;
     if (!id) {
         res.status(400).send({
             status: "NOT OK",

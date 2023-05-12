@@ -1,7 +1,7 @@
 const TwitterEngagementDB = require("../database/TwitterEnagagement");
 const TelegramEngagementDB = require("../database/TelegramEnagagement");
 const DiscordEngagementDB = require("../database/DiscordEnagagement");
-const { v4: uuid } = require("uuid");
+const {v4: uuid} = require("uuid");
 
 
 const getTwitterEngagementLevel = (id) => {

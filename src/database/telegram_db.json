@@ -1,8 +1,16 @@
 {
-  "data": [
+  "levels": [
     {
-      "id": "1",
-      "level": 10
+      "username": "holeintheblock",
+      "level": 3
+    },
+    {
+      "username": "VishalMoi",
+      "level": 2
+    },
+    {
+      "username": "Gustav_mr",
+      "level": 2
     }
   ]
 }
