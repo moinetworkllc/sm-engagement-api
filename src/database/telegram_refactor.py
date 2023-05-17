@@ -21,6 +21,8 @@ for ind in df.index:
     if username is None:
         continue
     level = (df['MSG'][ind] - 1) // (step_size) + 1
+    if level > 10:
+        level = 10  # Maximum level allowed is 10
     levels_data.append({"username": username[1:].strip(), "level": int(level)})
 
 with open("telegram_db.json", "w") as outfile:
